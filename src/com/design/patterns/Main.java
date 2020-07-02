@@ -1,10 +1,7 @@
 package com.design.patterns;
 
 
-import com.design.patterns.tests.ITestPattern;
-import com.design.patterns.tests.TestAdapter;
-import com.design.patterns.tests.TestBridge;
-import com.design.patterns.tests.TestSingleton;
+import com.design.patterns.tests.*;
 
 public class Main {
 
@@ -20,7 +17,10 @@ public class Main {
         //testPattern = new TestBridge();
 
         // Probar singleton
-        testPattern = new TestSingleton();
+        //testPattern = new TestSingleton();
+
+        //Probar factory method
+        testPattern = new TestFactoryMethod();
 
         //Act
         testPattern.test();
