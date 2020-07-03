@@ -20,7 +20,10 @@ public class Main {
         //testPattern = new TestSingleton();
 
         //Probar factory method
-        testPattern = new TestFactoryMethod();
+        //testPattern = new TestFactoryMethod();
+
+        //Probar Prototype
+        testPattern = new TestPrototype();
 
         //Act
         testPattern.test();
